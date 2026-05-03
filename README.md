@@ -40,6 +40,10 @@ Designed as part of a hackathon, this processor supports multiple instruction fo
 - Successfully simulated in Vivado  
 - Verified instruction execution  
 
+## 📌 Note on Instruction Memory
+The instruction memory is initialized using an external `program.mem` file via `$readmemh`.
+
+This file is not included in the repository. Users can provide their own instruction set in hexadecimal format to test and simulate the processor.
 ## 👥 Team
 - Gilbert Franco  
 - Jefin Jaison  
